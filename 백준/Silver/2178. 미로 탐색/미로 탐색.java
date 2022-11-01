@@ -47,7 +47,7 @@ public class Main {
 
                 if (xx==n-1&&yy==m-1){
                     min = Math.min(min,dd);
-                    continue;
+                    break;
                 }
 
                 if(xx>=0 && yy>=0 && xx<n && yy<m &&!visited[xx][yy] && map[xx][yy]==1) {
